@@ -2,11 +2,15 @@
 <html>
 <head>
 <style>
+body, html {
+  height: 100%;
+  margin: 0;
+}
 body
 {
-background-image: url('https://wallpaperbat.com/img/310817-network-security-wallpaper.png');
-background-size:cover;
-background-repeat:no-repeat;
+   background-image: url('https://wallpaperbat.com/img/310817-network-security-wallpaper.png');
+   background-size:cover;
+   background-repeat:no-repeat;
    height: 100%;
 }
 h1{
@@ -45,6 +49,19 @@ font-size:20px;
 font-weight:bold;
 }
 button:hover{background-color:blue;}
+   .parent {
+  border: 1px;
+  margin: 1rem;
+  padding: 2rem 2rem;
+  text-align: center;
+  background-color:black;    
+}
+   .child {
+  display: inline-block;
+  border: 1px solid red;
+  padding: 1rem 1rem;
+  vertical-align: middle;
+}
 </style>
 <title>Blaize's Resume</title>
 </head>
@@ -54,25 +71,25 @@ button:hover{background-color:blue;}
 <!--PERSONAL DETAILS AND PHOTOGRAPH-->
 
 <h1><u>BIO DATA</u></h1>
-<table style="background-color:black;" width="100%">
-<th style="width:60%">
+<div class="parent">
+<div class="child">
 <p class="pa">Name:<span style="font-family:verdana;">Blaize Tom</span><br><br>
    Father's Name:<span style="font-family:verdana;">Tomy Thomas</span><br><br>
    Mobile:<span style="font-family:verdana;">9447149751</span><br><br>
    Email id:<span style="font-family:verdana;">blaizetom@gmail.com</span><br> 
 </p>
-</th>
-<th>
+</div>
+<div class="child">
 <p class="pa">Languages Known:<span style="font-family:verdana;">Malayalam,English</span><br><br>
    <abbr title="Date of Birth">DOB</abbr>:<span style="font-family:verdana;">18<sup>th</sup> April 2003</span><br><br>
    Gender: <span style="font-family:verdana;">Male</span><br><br>
    Nationality:<span style="font-family:verdana;">Indian</span><br>
 </p>
-</th>
-<th>
+</div>
+<div class="child">
 <img src="https://raw.githubusercontent.com/raravind7/link/main/Blaize_img.jpeg" width="200px" height="200px">
-</th>
-</table>
+</div>
+</div>
 
 
 
